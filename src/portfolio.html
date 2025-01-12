@@ -1,48 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fromsis | Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>
-        <h1>Fromsis</h1>
-        <nav>
-            <a href="home.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section class="portfolio">
-            <h1>Portfolio</h1>
-            <p>Take a look at some of my recent projects:</p>
-            <div class="projects">
-                <div class="project">
-                    <img src="images/project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Email Marketing Campaign for Retail Business</p>
-                </div>
-                <div class="project">
-                    <img src="images/project2.jpg" alt="Project 2">
-                    <h3>Project 2</h3>
-                    <p>Landing Page Design for SaaS Product</p>
-                </div>
-                <div class="project">
-                    <img src="images/project3.jpg" alt="Project 3">
-                    <h3>Project 3</h3>
-                    <p>Ad Script for Social Media Campaign</p>
-                </div>
-                <div class="project">
-                    <img src="images/project4.jpg" alt="Project 4">
-                    <h3>Project 4</h3>
-                    <p>Customized Sales Funnel for E-Commerce Brand</p>
-                </div>
-            </div>
-        </section>
-    </main>
+  <header class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Service</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </header>
+  <main class="portfolio-section">
+    <h1 class="section-title">Portfolio</h1>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-image"></div>
+        <p>Edget Web</p>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-image"></div>
+        <p>Cheryls Coaching</p>
+      </div>
+    </div>
+    <div class="cta-section">
+      <h2>Ready to talk?</h2>
+      <a href="#schedule" class="cta-button">Click here to schedule appointments</a>
+    </div>
+  </main>
 </body>
 </html>
